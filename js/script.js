@@ -27,14 +27,12 @@ window.orejimeConfig = {
         name: "google",
         title: "Google Doc et secure",
         purposes: ["essentiel"],
-        cookies: ["__Secure-3PAPISID", "__Secure-3PSID", "__Secure-3PSIDCC" ]
+        cookies: ["__Secure-3PAPISID", "__Secure-3PSID", "__Secure-3PSIDCC", "SEARCH_SAMESITE" ]
     },
         
     ],
 }
-document.querySelector('.consent-modal-button').addEventListener('click', function() 
-   { orejime.show();
-}, false);
+
 
             
 /* End variable consent */
